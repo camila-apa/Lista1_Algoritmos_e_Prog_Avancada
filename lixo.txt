@@ -1,0 +1,23 @@
+// void inserirNo(ptrNo pai, ptrNo novo){
+//     if (pai->dir == NULL){
+//         pai->dir = novo;
+//     } else if (pai->esq == NULL){
+//         pai->esq = novo;
+//     } else {
+//         inserirNo(ptrNo pai->)
+//     }
+// }
+
+// ptrNo encontrarMaisProximo(ptrNo raiz, Point novo, ptrNo melhor, double &custo){
+//     if (raiz == NULL){
+//         return melhor;
+//     }
+//     double dis = distancia(raiz->p, novo);
+//     if (dis < custo){
+//         custo = dis;
+//         melhor = raiz;
+//     }
+//     melhor = encontrarMaisProximo(raiz->dir, novo, melhor, custo);
+//     melhor = encontrarMaisProximo(raiz->esq, novo, melhor, custo);
+//     return melhor;
+// }
